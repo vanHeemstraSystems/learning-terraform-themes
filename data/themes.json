@@ -20,6 +20,149 @@
               "value": 50
             }
           ]
+        },
+        {
+          "name": "Apply",
+          "value": 50
+        },
+        {
+          "name": "Initial Setup & Basic Operations",
+          "value": 50
+        },
+        {
+          "name": "Input Variables & Output Variables",
+          "children": [
+            {
+              "name": "Input Variables",
+              "value": 50
+            },
+            {
+              "name": "Output Variables",
+              "value": 50
+            }
+          ]
+        },
+        {
+          "name": "Default TFVAR File",
+          "value": 50
+        },
+        {
+          "name": "More TFVAR Files",
+          "value": 50
+        },
+        {
+          "name": "TF_VAR_ Environment Variables",
+          "value": 50
+        },
+        {
+          "name": "Locals",
+          "value": 50
+        },
+        {
+          "name": "String Interpolation",
+          "value": 50
+        },
+        {
+          "name": "Providers",
+          "value": 50
+        },      
+        {
+          "name": "Resources",
+          "value": 50
+        },  
+        {
+          "name": "Resource Outputs",
+          "value": 50
+        },  
+        {
+          "name": "Lists & Counts",
+          "children": [
+            {
+              "name": "Lists",
+              "value": 50
+            },
+            {
+              "name": "Counts",
+              "value": 50
+            }
+          ]
+        }, 
+        {
+          "name": "Boolean Variables & Conditionals",
+          "children": [
+            {
+              "name": "Boolean Variables",
+              "value": 50
+            },
+            {
+              "name": "Conditionals",
+              "value": 50
+            }
+          ]
+        },        
+        {
+          "name": "IF BLOCK",
+          "value": 50
+        },
+        {
+          "name": "Output Command",
+          "value": 50
+        },
+        {
+          "name": "Modules",
+          "value": 50
+        },
+        {
+          "name": "Module Resource Paths",
+          "value": 50
+        },
+        {
+          "name": "Setup the Azure Provider",
+          "value": 50
+        },
+        {
+          "name": "Setup an Azure Resource Group",
+          "value": 50
+        },
+        {
+          "name": "Setup an Azure Virtual Network",
+          "value": 50
+        },
+        {
+          "name": "Dynamic Resources with COUNT",
+          "value": 50
+        },
+        {
+          "name": "Dynamic Resources with FOR_EACH",
+          "value": 50
+        },
+        {
+          "name": "COUNT versus FOR_EACH",
+          "value": 50
+        },
+        {
+          "name": "FOR Expression with MAP Output",
+          "value": 50
+        },
+        {
+          "name": "Changing the FOR Expression VALUE type",
+          "value": 50
+        },
+        {
+          "name": "FOR Expression with LIST Output",
+          "value": 50
+        },        
+        {
+          "name": "Nested Blocks",
+          "value": 50
+        },         
+        {
+          "name": "Dynamic Blocks",
+          "value": 50
+        }, 
+        {
+          "name": "Nested Blocks versus Child Resources",
+          "value": 50
         }
       ]
     }
