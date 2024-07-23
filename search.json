@@ -7,46 +7,18 @@
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\nimport { renderChart } from \"@trebor/zoomable-voronoi-treemap\"\n\n\n\n\n\n\n\nmd`### Themes`\n\n\n\n\n\n\n\ndata = {\n  const flare = await d3.json(\n    \"https://raw.githubusercontent.com/vanHeemstraSystems/learning-terraform-themes/main/data/themes.json\"\n  );\n  return d3.hierarchy(flare).sum((d) =&gt; (d.children ? 0 : Math.random()));\n}\n\n\n\n\n\n\n\n__topicsChart = {\n  return renderChart({\n    data,\n    size: { width, height: 400 }\n  });\n}\n\n\n\n\n\n\n\nMaster Initial Setup\nVisit https://github.com/vanHeemstraSystems/learning-terraform-initial-setup\n\n\nMaster Basic Operations\nVisit https://github.com/vanHeemstraSystems/learning-terraform-basic-operations\n\n\nMaster Input Variables\nVisit https://github.com/vanHeemstraSystems/learning-terraform-input-variables\n\n\nMaster Output Variables\nVisit https://github.com/vanHeemstraSystems/learning-terraform-output-variables\n\n\nMaster Basic Operations\nVisit https://github.com/vanHeemstraSystems/learning-terraform-basic-operations\n\n\nMaster Resources\nVisit https://github.com/vanHeemstraSystems/learning-terraform-resources\n\n\nMaster Data Sources\nVisit https://github.com/vanHeemstraSystems/learning-terraform-data-sources\n\n\nMaster Locals\nVisit https://github.com/vanHeemstraSystems/learning-terraform-locals"
   },
   {
-    "objectID": "SUMMARY.html",
-    "href": "SUMMARY.html",
-    "title": "Table of contents",
+    "objectID": "locals.html",
+    "href": "locals.html",
+    "title": "Locals",
     "section": "",
-    "text": "Table of contents\n\nLearning Terraform - Themes"
+    "text": "About this site\nWe base our Theme: Master Locals on Planning a Minimum Viable Nothing (MVN)."
   },
   {
-    "objectID": "initial-setup.html",
-    "href": "initial-setup.html",
-    "title": "Initial Setup",
-    "section": "",
-    "text": "About this site\nWe base our Theme: Master Initial Setup on Planning a Minimum Viable Nothing (MVN)."
-  },
-  {
-    "objectID": "initial-setup.html#find-the-opportunities.",
-    "href": "initial-setup.html#find-the-opportunities.",
-    "title": "Initial Setup",
+    "objectID": "locals.html#find-the-opportunities.",
+    "href": "locals.html#find-the-opportunities.",
+    "title": "Locals",
     "section": "2. Find the Opportunities.",
-    "text": "2. Find the Opportunities.\nSee Learning Terraform - Initial Setup\n\na) Map out the User Journey(s).\n\n- Identify the Users (Actors) / Persona.\n\n\n- Identify the Story Ending (End Goal)\n\n\n- Identify all Actions the User must take to meet the End Goal.\n\n\n\nb) Create a “Pain and Gain” Map for each Action.\n\n- Write down the Action the User completes when using the Product (i.e., good or service).\n\n\n- Write down the Pain Points for each Action.\n\n\n- Write down the Gains for each Action.\n\n\n\nc) Summarize the Pains and Gains into Opportunity Statements.\n\n- Use “How might we” Statements or a similar method to summarize the Pains and Gains you have identified."
-  },
-  {
-    "objectID": "resources.html",
-    "href": "resources.html",
-    "title": "Resources",
-    "section": "",
-    "text": "About this site\nWe base our Theme: Master Resources on Planning a Minimum Viable Nothing (MVN)."
-  },
-  {
-    "objectID": "resources.html#find-the-opportunities.",
-    "href": "resources.html#find-the-opportunities.",
-    "title": "Resources",
-    "section": "2. Find the Opportunities.",
-    "text": "2. Find the Opportunities.\nSee Learning Terraform - Resources\n\na) Map out the User Journey(s).\n\n- Identify the Users (Actors) / Persona.\n\n\n- Identify the Story Ending (End Goal)\n\n\n- Identify all Actions the User must take to meet the End Goal.\n\n\n\nb) Create a “Pain and Gain” Map for each Action.\n\n- Write down the Action the User completes when using the Product (i.e., good or service).\n\n\n- Write down the Pain Points for each Action.\n\n\n- Write down the Gains for each Action.\n\n\n\nc) Summarize the Pains and Gains into Opportunity Statements.\n\n- Use “How might we” Statements or a similar method to summarize the Pains and Gains you have identified."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
+    "text": "2. Find the Opportunities.\nSee Learning Terraform - Locals\n\na) Map out the User Journey(s).\n\n- Identify the Users (Actors) / Persona.\n\n\n- Identify the Story Ending (End Goal)\n\n\n- Identify all Actions the User must take to meet the End Goal.\n\n\n\nb) Create a “Pain and Gain” Map for each Action.\n\n- Write down the Action the User completes when using the Product (i.e., good or service).\n\n\n- Write down the Pain Points for each Action.\n\n\n- Write down the Gains for each Action.\n\n\n\nc) Summarize the Pains and Gains into Opportunity Statements.\n\n- Use “How might we” Statements or a similar method to summarize the Pains and Gains you have identified."
   },
   {
     "objectID": "data-sources.html",
@@ -63,17 +35,59 @@
     "text": "2. Find the Opportunities.\nSee Learning Terraform - Data Sources\n\na) Map out the User Journey(s).\n\n- Identify the Users (Actors) / Persona.\n\n\n- Identify the Story Ending (End Goal)\n\n\n- Identify all Actions the User must take to meet the End Goal.\n\n\n\nb) Create a “Pain and Gain” Map for each Action.\n\n- Write down the Action the User completes when using the Product (i.e., good or service).\n\n\n- Write down the Pain Points for each Action.\n\n\n- Write down the Gains for each Action.\n\n\n\nc) Summarize the Pains and Gains into Opportunity Statements.\n\n- Use “How might we” Statements or a similar method to summarize the Pains and Gains you have identified."
   },
   {
-    "objectID": "locals.html",
-    "href": "locals.html",
-    "title": "Locals",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "About this site\nWe base our Theme: Master Locals on Planning a Minimum Viable Nothing (MVN)."
+    "text": "About this site"
   },
   {
-    "objectID": "locals.html#find-the-opportunities.",
-    "href": "locals.html#find-the-opportunities.",
-    "title": "Locals",
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "About this site\nWe base our Theme: Master Resources on Planning a Minimum Viable Nothing (MVN)."
+  },
+  {
+    "objectID": "resources.html#find-the-opportunities.",
+    "href": "resources.html#find-the-opportunities.",
+    "title": "Resources",
     "section": "2. Find the Opportunities.",
-    "text": "2. Find the Opportunities.\nSee Learning Terraform - Locals\n\na) Map out the User Journey(s).\n\n- Identify the Users (Actors) / Persona.\n\n\n- Identify the Story Ending (End Goal)\n\n\n- Identify all Actions the User must take to meet the End Goal.\n\n\n\nb) Create a “Pain and Gain” Map for each Action.\n\n- Write down the Action the User completes when using the Product (i.e., good or service).\n\n\n- Write down the Pain Points for each Action.\n\n\n- Write down the Gains for each Action.\n\n\n\nc) Summarize the Pains and Gains into Opportunity Statements.\n\n- Use “How might we” Statements or a similar method to summarize the Pains and Gains you have identified."
+    "text": "2. Find the Opportunities.\nSee Learning Terraform - Resources\n\na) Map out the User Journey(s).\n\n- Identify the Users (Actors) / Persona.\n\n\n- Identify the Story Ending (End Goal)\n\n\n- Identify all Actions the User must take to meet the End Goal.\n\n\n\nb) Create a “Pain and Gain” Map for each Action.\n\n- Write down the Action the User completes when using the Product (i.e., good or service).\n\n\n- Write down the Pain Points for each Action.\n\n\n- Write down the Gains for each Action.\n\n\n\nc) Summarize the Pains and Gains into Opportunity Statements.\n\n- Use “How might we” Statements or a similar method to summarize the Pains and Gains you have identified."
+  },
+  {
+    "objectID": "initial-setup.html",
+    "href": "initial-setup.html",
+    "title": "Initial Setup",
+    "section": "",
+    "text": "About this site\nWe base our Theme: Master Initial Setup on Planning a Minimum Viable Nothing (MVN)."
+  },
+  {
+    "objectID": "initial-setup.html#find-the-opportunities.",
+    "href": "initial-setup.html#find-the-opportunities.",
+    "title": "Initial Setup",
+    "section": "2. Find the Opportunities.",
+    "text": "2. Find the Opportunities.\nSee Learning Terraform - Initial Setup\n\na) Map out the User Journey(s).\n\n- Identify the Users (Actors) / Persona.\n\n\n- Identify the Story Ending (End Goal)\n\n\n- Identify all Actions the User must take to meet the End Goal.\n\n\n\nb) Create a “Pain and Gain” Map for each Action.\n\n- Write down the Action the User completes when using the Product (i.e., good or service).\n\n\n- Write down the Pain Points for each Action.\n\n\n- Write down the Gains for each Action.\n\n\n\nc) Summarize the Pains and Gains into Opportunity Statements.\n\n- Use “How might we” Statements or a similar method to summarize the Pains and Gains you have identified."
+  },
+  {
+    "objectID": "SUMMARY.html",
+    "href": "SUMMARY.html",
+    "title": "Table of contents",
+    "section": "",
+    "text": "Table of contents\n\nLearning Terraform - Themes"
+  },
+  {
+    "objectID": "basic-operations.html",
+    "href": "basic-operations.html",
+    "title": "Basic Operations",
+    "section": "",
+    "text": "About this site\nWe base our Theme: Master Basic Operations on Planning a Minimum Viable Nothing (MVN)."
+  },
+  {
+    "objectID": "basic-operations.html#find-the-opportunities.",
+    "href": "basic-operations.html#find-the-opportunities.",
+    "title": "Basic Operations",
+    "section": "2. Find the Opportunities.",
+    "text": "2. Find the Opportunities.\nSee Learning Terraform - Basic Operations\n\na) Map out the User Journey(s).\n\n- Identify the Users (Actors) / Persona.\n\n\n- Identify the Story Ending (End Goal)\n\n\n- Identify all Actions the User must take to meet the End Goal.\n\n\n\nb) Create a “Pain and Gain” Map for each Action.\n\n- Write down the Action the User completes when using the Product (i.e., good or service).\n\n\n- Write down the Pain Points for each Action.\n\n\n- Write down the Gains for each Action.\n\n\n\nc) Summarize the Pains and Gains into Opportunity Statements.\n\n- Use “How might we” Statements or a similar method to summarize the Pains and Gains you have identified."
   }
 ]
