@@ -5,20 +5,19 @@
       "name": "Terraform",
       "children": [
         {
-          "name": "Resources",
+          "name": "Resources, Data Sources and Locals",
           "children": [
             {
-              "name": "Foo",
-              "children": [
-                {
-                  "name": "Bar",
-                  "value": 50
-                },
-                {
-                  "name": "Foo",
-                  "value": 50
-                }
-              ]
+              "name": "Resources",
+              "value": 50
+            },
+            {
+              "name": "Data Sources",
+              "value": 50
+            },
+            {
+              "name": "Locals",
+              "value": 50
             }
           ]
         }
