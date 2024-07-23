@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://vanHeemstraSystems.github.io/learning-terraform-themes/SUMMARY.html</loc>
+    <lastmod>2024-07-23T11:18:40.658Z</lastmod>
+  </url>
+  <url>
     <loc>https://vanHeemstraSystems.github.io/learning-terraform-themes/index.html</loc>
-    <lastmod>2024-07-23T11:16:39.173Z</lastmod>
+    <lastmod>2024-07-23T11:18:40.658Z</lastmod>
   </url>
   <url>
     <loc>https://vanHeemstraSystems.github.io/learning-terraform-themes/about.html</loc>
-    <lastmod>2024-07-23T11:16:39.173Z</lastmod>
+    <lastmod>2024-07-23T11:18:40.658Z</lastmod>
   </url>
   <url>
     <loc>https://vanHeemstraSystems.github.io/learning-terraform-themes/resources.html</loc>
-    <lastmod>2024-07-23T11:16:39.173Z</lastmod>
-  </url>
-  <url>
-    <loc>https://vanHeemstraSystems.github.io/learning-terraform-themes/SUMMARY.html</loc>
-    <lastmod>2024-07-23T11:16:39.173Z</lastmod>
+    <lastmod>2024-07-23T11:18:40.658Z</lastmod>
   </url>
 </urlset>
