@@ -37,3 +37,5 @@ __topicsChart = {
 ```
 
 # Master Resources
+Visit https://github.com/vanHeemstraSystems/learning-terraform-resources
+
