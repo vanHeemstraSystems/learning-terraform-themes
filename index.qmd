@@ -36,6 +36,21 @@ __topicsChart = {
 }
 ```
 
+# Master Initial Setup
+Visit <https://github.com/vanHeemstraSystems/learning-terraform-initial-setup>
+
+# Master Basic Operations
+Visit <https://github.com/vanHeemstraSystems/learning-terraform-basic-operations>
+
+# Master Input Variables
+Visit <https://github.com/vanHeemstraSystems/learning-terraform-input-variables>
+
+# Master Output Variables
+Visit <https://github.com/vanHeemstraSystems/learning-terraform-output-variables>
+
+# Master Basic Operations
+Visit <https://github.com/vanHeemstraSystems/learning-terraform-basic-operations>
+
 # Master Resources
 Visit <https://github.com/vanHeemstraSystems/learning-terraform-resources>
 
